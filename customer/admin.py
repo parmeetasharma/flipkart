@@ -5,4 +5,3 @@ from customer.views import*
 admin.site.register(Customers)
 admin.site.register(CustomerAddress)
 admin.site.register(CustomerAddhar)
-admin.site.register(CustomerAddhar)

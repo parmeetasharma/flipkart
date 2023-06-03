@@ -7,5 +7,5 @@ from customer.views import*
 
 urlpatterns = [
     path('get-customer',GetCustomerView.as_view()),
-    
+    path('get-Address',GetCustomerView.as_view()),
 ]

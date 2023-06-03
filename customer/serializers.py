@@ -9,11 +9,11 @@ class GetCustomerSerializer(serializers.ModelSerializer):
 
 class GetCustomerSerializer(serializers.ModelSerializer):
     class Meta:
-        model=CustomerAddress
+        model = CustomerAddress
         fields="__all__"
 
 class CustomerDetailAddressSerializer(serializers.ModelSerializer):
-    customer_Adresses= GetCustomerSerializer(many=True)
+    customer_Adresses = GetCustomerSerializer(many=True)
 
     class Meta:
         model = Customers
